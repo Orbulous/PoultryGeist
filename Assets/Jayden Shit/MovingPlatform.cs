@@ -59,4 +59,5 @@ public class MovingPlatform : MonoBehaviour
         }
         transform.position = new Vector2(xPos, yPos);
     }
+
 }
