@@ -10,16 +10,21 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public bool isOnGround = true;
     public float jumpForce;
-    //public GameManager gm;
+    public float lowerLimit;
+    public GameManager gm;
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-        //gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void Update()
     {
+        if (transform.position.y < lowerLimit)
+        {
+            GameObject.Find("GameManager").GetComponent<GameManager>().Respawn();
+        }
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * moveSpeed * horizontalInput * Time.deltaTime);
         if (horizontalInput < 0)
@@ -37,10 +42,10 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    //public void Hurt()
-    //{
-        //gm.Respawn();
-    //}
+    public void Hurt()
+    {
+        gm.Respawn();
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
@@ -52,5 +57,4 @@ public class PlayerController : MonoBehaviour
             isOnGround = true;
         }
     }
-
 }

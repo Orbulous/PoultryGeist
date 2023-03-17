@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public GameObject player;
     public Transform groundDetector;
     public float moveSpeed;
     // Start is called before the first frame update
@@ -15,11 +16,19 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            transform.Translate(Vector2.right * Time.deltaTime * moveSpeed);
+        transform.Translate(Vector2.right * Time.deltaTime * moveSpeed);
         RaycastHit2D ground = Physics2D.Raycast(groundDetector.position, Vector2.down, .5f);
         if (ground.collider == null)
         {
             transform.Rotate(0, 180, 0);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            player = collision.gameObject;
+            player.GetComponent<PlayerController>().Hurt();
         }
     }
 }
