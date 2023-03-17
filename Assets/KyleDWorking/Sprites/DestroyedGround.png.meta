@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 029afdd616f3692438e07171dfa7d5b8
+guid: a1b87d7da7b835341950b230a80d71eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DestroyedGround (1)_0
+      name: DestroyedGround_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa7394482ede52448c7c537c501b7c4
-      internalID: 1355775780
+      spriteID: 9576cbe5912c7614d994c7fa116db4bd
+      internalID: 1168486060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_1
+      name: DestroyedGround_1
       rect:
         serializedVersion: 2
         x: 320
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75095aa636a325f49a06ca78466adf9d
-      internalID: -1173381975
+      spriteID: afc63f9b1c4a2244e8c7bc0f177fce32
+      internalID: -589664524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_2
+      name: DestroyedGround_2
       rect:
         serializedVersion: 2
         x: 640
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a985f2a5ac31ebb4380bb3e55eeaf330
-      internalID: -1066426086
+      spriteID: 93a0bbe39e1749549b21e757849b3b0e
+      internalID: -456070999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_3
+      name: DestroyedGround_3
       rect:
         serializedVersion: 2
         x: 960
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2946cc60186183b418b3963190f91ecd
-      internalID: -1646271713
+      spriteID: 442cbeee7f557bf4c8fc5beb64906b4b
+      internalID: -1879441815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_4
+      name: DestroyedGround_4
       rect:
         serializedVersion: 2
         x: 0
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65b6fc36d9896eb4db7591109d5d9460
-      internalID: 846986955
+      spriteID: 2974477f80b0ced4497b14547f3682cb
+      internalID: 1421117281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_5
+      name: DestroyedGround_5
       rect:
         serializedVersion: 2
         x: 320
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef3bdff8cc4a7a34999a83cad777159e
-      internalID: 1501805186
+      spriteID: 1ac4f4b37ddb88848b8d98ab73c43b9f
+      internalID: -586759371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_6
+      name: DestroyedGround_6
       rect:
         serializedVersion: 2
         x: 640
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a75a29ee58fb134192b6bd03dffdc13
-      internalID: 544846040
+      spriteID: 45ef001487becc246bc719f7ad8fe5b1
+      internalID: -1359527768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_7
+      name: DestroyedGround_7
       rect:
         serializedVersion: 2
         x: 960
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9227e8f1543644f4f84f2463a699cfc5
-      internalID: -1439770247
+      spriteID: a284eb7eb94a0254f818ad55a7a231ea
+      internalID: -999041000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_8
+      name: DestroyedGround_8
       rect:
         serializedVersion: 2
         x: 0
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e43c90c17e5e249834171298791ed0
-      internalID: -1762403101
+      spriteID: 3a74fecd1b2f3d64f90c79daaab7193a
+      internalID: 185481927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_9
+      name: DestroyedGround_9
       rect:
         serializedVersion: 2
         x: 320
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 519b8fe9f05abbc4e9c1684e0a7f2451
-      internalID: 2126976792
+      spriteID: a746cb50d2188a444977e1cf9cc4c22f
+      internalID: 1286557842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_10
+      name: DestroyedGround_10
       rect:
         serializedVersion: 2
         x: 640
@@ -352,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c9d9c7bb13d6b4db0b94e70227911f
-      internalID: -1954560254
+      spriteID: 60e78e6d84464e143badc09beead63da
+      internalID: -751781705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_11
+      name: DestroyedGround_11
       rect:
         serializedVersion: 2
         x: 960
@@ -373,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602c58ee1b550a6439ea190eac95d0e7
-      internalID: -339783766
+      spriteID: c75e3ffd4056cec47ab4d587118af8ab
+      internalID: -1852770478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_12
+      name: DestroyedGround_12
       rect:
         serializedVersion: 2
         x: 0
@@ -394,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4017ad703535f114e85869e1c04d042b
-      internalID: -916398019
+      spriteID: 46589317d05479943b2eb7809f359213
+      internalID: 1575909383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_13
+      name: DestroyedGround_13
       rect:
         serializedVersion: 2
         x: 320
@@ -415,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757bf4ac275bffb42bac33702dfdb339
-      internalID: -1249308199
+      spriteID: df1d85e2ca57eb64084ae506a02697f4
+      internalID: 1958244407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_14
+      name: DestroyedGround_14
       rect:
         serializedVersion: 2
         x: 640
@@ -436,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c0aa09f797eed4f85bc0dd66914967
-      internalID: -1351081324
+      spriteID: 0a0e517ee0874db408cd2eabeebb3e72
+      internalID: -1096584912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DestroyedGround (1)_15
+      name: DestroyedGround_15
       rect:
         serializedVersion: 2
         x: 960
@@ -457,8 +457,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea1df6252567454e860d7c1bf344d17
-      internalID: 742502334
+      spriteID: 58b48147804c51246a711ef3e44abb5a
+      internalID: 959018169
       vertices: []
       indices: 
       edges: []
@@ -474,22 +474,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DestroyedGround (1)_6: 544846040
-      DestroyedGround (1)_10: -1954560254
-      DestroyedGround (1)_8: -1762403101
-      DestroyedGround (1)_7: -1439770247
-      DestroyedGround (1)_14: -1351081324
-      DestroyedGround (1)_13: -1249308199
-      DestroyedGround (1)_4: 846986955
-      DestroyedGround (1)_11: -339783766
-      DestroyedGround (1)_15: 742502334
-      DestroyedGround (1)_5: 1501805186
-      DestroyedGround (1)_9: 2126976792
-      DestroyedGround (1)_2: -1066426086
-      DestroyedGround (1)_3: -1646271713
-      DestroyedGround (1)_0: 1355775780
-      DestroyedGround (1)_12: -916398019
-      DestroyedGround (1)_1: -1173381975
+      DestroyedGround_14: -1096584912
+      DestroyedGround_15: 959018169
+      DestroyedGround_6: -1359527768
+      DestroyedGround_2: -456070999
+      DestroyedGround_0: 1168486060
+      DestroyedGround_7: -999041000
+      DestroyedGround_11: -1852770478
+      DestroyedGround_8: 185481927
+      DestroyedGround_13: 1958244407
+      DestroyedGround_9: 1286557842
+      DestroyedGround_5: -586759371
+      DestroyedGround_4: 1421117281
+      DestroyedGround_1: -589664524
+      DestroyedGround_3: -1879441815
+      DestroyedGround_10: -751781705
+      DestroyedGround_12: 1575909383
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
