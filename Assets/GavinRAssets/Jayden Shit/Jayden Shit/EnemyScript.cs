@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public bool isHitOnHead;
     public GameObject player;
+    public float bounceForce;
     public Transform groundDetector;
     public float moveSpeed;
     // Start is called before the first frame update
@@ -28,7 +30,20 @@ public class EnemyScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             player = collision.gameObject;
-            player.GetComponent<PlayerController>().Hurt();
+            if (isHitOnHead)
+            {
+                Die();
+            }
+            else
+            {
+                player.GetComponent<PlayerController>().Hurt();
+            }
         }
+    }
+
+    public void Die()
+    {
+        player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+        Destroy(gameObject);
     }
 }
