@@ -101,14 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ee9d009de51cd543acb8256e0ff5472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
-  player: {fileID: 0}
-
   isHitOnHead: 0
+  player: {fileID: 3263152689479223611, guid: c17b942e65601574981258c331c17649, type: 3}
   bounceForce: 0
-
   groundDetector: {fileID: 4953380166711538277}
-  moveSpeed: 3
+  moveSpeed: 5
 --- !u!61 &4953380164791546728
 BoxCollider2D:
   m_ObjectHideFlags: 0
