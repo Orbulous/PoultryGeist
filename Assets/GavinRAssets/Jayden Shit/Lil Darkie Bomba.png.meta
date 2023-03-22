@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0feaf932daa21be4eb5c9798c596fd66
+guid: 764aa236f9a9bcd4a9482c171716429a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Turkey Idle_0
+      name: Lil Darkie Bomba_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
-        width: 96
-        height: 96
+        y: 160
+        width: 165
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb96279b86e8ef47add74a82eba9a86
-      internalID: -1619231753
+      spriteID: a4fd6121d3eaa87419acbc7441aab41b
+      internalID: 685532270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turkey Idle_1
+      name: Lil Darkie Bomba_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
-        width: 96
-        height: 96
+        x: 165
+        y: 160
+        width: 165
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,167 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ca681f8c794c7c4094325df884f5275
-      internalID: -1007385780
+      spriteID: 2af9197986c7ed144a7557e74343b6a0
+      internalID: -1082468862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turkey Idle_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20e6607b7ab0bf948899d5195c4d73ca
-      internalID: 1555704344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8486c92ac7bb0142a91fc5cc0c14b88
-      internalID: -1967617984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_4
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7637e5b7e6c7eec42adbbaa46f4ad227
-      internalID: -1819242207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_5
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6425801e87801b4498d1b51487e0d2dd
-      internalID: -2095805581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 255bf2a216d84c74bae9b86f7479639d
-      internalID: -2127933485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a57f697a4f2c9284899e6a0d762fca99
-      internalID: 289332057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 249185fa55b40eb4dbc4946864c45b63
-      internalID: -248724320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_9
+      name: Lil Darkie Bomba_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 96
+        width: 165
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,8 +184,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f03fac4f1441484297f1f8d4a26e039
-      internalID: -1638562858
+      spriteID: bcf0555a1c56c264699f50370792e2f0
+      internalID: -1158644528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil Darkie Bomba_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 165
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f47ebc65ac6242986dd84ca865080
+      internalID: -661194049
       vertices: []
       indices: 
       edges: []
@@ -348,16 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Turkey Idle_0: -1619231753
-      Turkey Idle_6: -2127933485
-      Turkey Idle_8: -248724320
-      Turkey Idle_2: 1555704344
-      Turkey Idle_3: -1967617984
-      Turkey Idle_5: -2095805581
-      Turkey Idle_1: -1007385780
-      Turkey Idle_4: -1819242207
-      Turkey Idle_7: 289332057
-      Turkey Idle_9: -1638562858
+      Lil Darkie Bomba_2: -1158644528
+      Lil Darkie Bomba_1: -1082468862
+      Lil Darkie Bomba_0: 685532270
+      Lil Darkie Bomba_3: -661194049
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
