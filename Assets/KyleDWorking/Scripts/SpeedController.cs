@@ -24,9 +24,5 @@ public class SpeedController : MonoBehaviour
         {
             Player.moveSpeed = 10;
         }
-        else
-        {
-            Player.moveSpeed = 5;
-        }
     }
 }
