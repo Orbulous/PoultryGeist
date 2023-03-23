@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KyleDWorking/Scenes/Level-2.unity
     guid: 5c2775b208f45fe48816cff2a4bb43bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/KyleDWorking/Scenes/Level-3.unity
     guid: a40a4bb4bc28aaf468fc4a104acfdd77
   m_configObjects: {}
