@@ -57,4 +57,8 @@ public class PlayerController : MonoBehaviour
             isOnGround = true;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        gm.check = true;
+    }
 }
