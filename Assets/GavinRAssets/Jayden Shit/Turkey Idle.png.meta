@@ -132,9 +132,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2880
-        width: 960
-        height: 960
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d635edc16b5249542a38a2c6492d0336
-      internalID: -338866103
+      spriteID: 1cb96279b86e8ef47add74a82eba9a86
+      internalID: -1619231753
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,10 @@ TextureImporter:
       name: Turkey Idle_1
       rect:
         serializedVersion: 2
-        x: 960
-        y: 2880
-        width: 960
-        height: 960
+        x: 96
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99501960cbabe9439e12336ac538c46
-      internalID: 1005474159
+      spriteID: 8ca681f8c794c7c4094325df884f5275
+      internalID: -1007385780
       vertices: []
       indices: 
       edges: []
@@ -173,10 +173,10 @@ TextureImporter:
       name: Turkey Idle_2
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2880
-        width: 960
-        height: 960
+        x: 192
+        y: 288
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 572e8751b4f7c5444b0b265749ee2d48
-      internalID: 1012342554
+      spriteID: 20e6607b7ab0bf948899d5195c4d73ca
+      internalID: 1555704344
       vertices: []
       indices: 
       edges: []
@@ -195,9 +195,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1920
-        width: 960
-        height: 960
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a53235882dddc64aa86e64032eac396
-      internalID: -1145861542
+      spriteID: c8486c92ac7bb0142a91fc5cc0c14b88
+      internalID: -1967617984
       vertices: []
       indices: 
       edges: []
@@ -215,10 +215,10 @@ TextureImporter:
       name: Turkey Idle_4
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1920
-        width: 960
-        height: 960
+        x: 96
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed510e6cdf3ff247afea9e41943a7a3
-      internalID: -303853309
+      spriteID: 7637e5b7e6c7eec42adbbaa46f4ad227
+      internalID: -1819242207
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
       name: Turkey Idle_5
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1920
-        width: 960
-        height: 960
+        x: 192
+        y: 192
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e29236ac5cb13854093075c0fa2d6751
-      internalID: -396776940
+      spriteID: 6425801e87801b4498d1b51487e0d2dd
+      internalID: -2095805581
       vertices: []
       indices: 
       edges: []
@@ -258,9 +258,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
-        width: 960
-        height: 960
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 134205f424478e6429b3d61a0a963140
-      internalID: 1475632141
+      spriteID: 255bf2a216d84c74bae9b86f7479639d
+      internalID: -2127933485
       vertices: []
       indices: 
       edges: []
@@ -278,10 +278,10 @@ TextureImporter:
       name: Turkey Idle_7
       rect:
         serializedVersion: 2
-        x: 960
-        y: 960
-        width: 960
-        height: 960
+        x: 96
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f029aa974592c40b8eadc0a4e6394b
-      internalID: 1784757821
+      spriteID: a57f697a4f2c9284899e6a0d762fca99
+      internalID: 289332057
       vertices: []
       indices: 
       edges: []
@@ -299,10 +299,10 @@ TextureImporter:
       name: Turkey Idle_8
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 960
-        width: 960
-        height: 960
+        x: 192
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec16a367aa4b184ba85b3b4345061ff
-      internalID: 627659945
+      spriteID: 249185fa55b40eb4dbc4946864c45b63
+      internalID: -248724320
       vertices: []
       indices: 
       edges: []
@@ -322,8 +322,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 960
-        height: 960
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,29 +331,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 061dbe6c87b72f34191ba871b2e5c3b8
-      internalID: -72911426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turkey Idle_10
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 960
-        height: 960
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a5286d8eb765a6479967a19f0b50e3e
-      internalID: 17083208
+      spriteID: 3f03fac4f1441484297f1f8d4a26e039
+      internalID: -1638562858
       vertices: []
       indices: 
       edges: []
@@ -369,17 +348,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Turkey Idle_0: -338866103
-      Turkey Idle_6: 1475632141
-      Turkey Idle_8: 627659945
-      Turkey Idle_10: 17083208
-      Turkey Idle_2: 1012342554
-      Turkey Idle_3: -1145861542
-      Turkey Idle_5: -396776940
-      Turkey Idle_1: 1005474159
-      Turkey Idle_4: -303853309
-      Turkey Idle_7: 1784757821
-      Turkey Idle_9: -72911426
+      Turkey Idle_0: -1619231753
+      Turkey Idle_6: -2127933485
+      Turkey Idle_8: -248724320
+      Turkey Idle_2: 1555704344
+      Turkey Idle_3: -1967617984
+      Turkey Idle_5: -2095805581
+      Turkey Idle_1: -1007385780
+      Turkey Idle_4: -1819242207
+      Turkey Idle_7: 289332057
+      Turkey Idle_9: -1638562858
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
