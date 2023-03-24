@@ -21,10 +21,18 @@ public class GameManager : MonoBehaviour
     {
         spawn = false;
     }
-
+    
     public void Respawn()
     {
+<<<<<<< Updated upstream
         player.transform.position = spawnPoint.transform.position;
         spawn = true;
+=======
+            //player.transform.position = checkPoint.transform.position;
+            //check = true;
+            player.transform.position = spawnPoint.transform.position;
+            spawn = true;
+>>>>>>> Stashed changes
     }
+    
 }

@@ -5863,7 +5863,9 @@ MonoBehaviour:
   player: {fileID: 1332458937}
   summoning: {fileID: 0}
   spawnPoint: {fileID: 863769295}
+  checkPoint: {fileID: 0}
   spawn: 0
+  check: 0
 --- !u!4 &1798489046
 Transform:
   m_ObjectHideFlags: 0
