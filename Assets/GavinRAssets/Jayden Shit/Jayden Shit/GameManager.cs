@@ -27,8 +27,8 @@ public class GameManager : MonoBehaviour
 
     public void Respawn()
     {
-            player.transform.position = checkPoint.transform.position;
-            check = true;
+          //  player.transform.position = checkPoint.transform.position;
+          //  check = true;
             player.transform.position = spawnPoint.transform.position;
             spawn = true;
     }

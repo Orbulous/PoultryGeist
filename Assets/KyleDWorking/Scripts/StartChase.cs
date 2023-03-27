@@ -7,14 +7,14 @@ public class StartChase : MonoBehaviour
 
     public PlayerController Player;
 
-    public GameObject Enemy;
+    public GameObject EnemyChasing;
+
+    public GameObject enemySpawn;
 
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player").GetComponent<PlayerController>();
-
-        Enemy = GameObject.Find("Enemy");
     }
 
     // Update is called once per frame
@@ -27,12 +27,16 @@ public class StartChase : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-           // StartChase();
+            StartCoroutine(StartChase());
         }
 
-       // Public void StartChase()
-       // {
-         //   Enemy.active;
-      //  }
+        IEnumerator StartChase()
+        {
+           yield return new WaitForSeconds(0);
+
+            //Instantiate(prefab, spawn.position, spawn.rotation);
+
+            Instantiate(EnemyChasing, enemySpawn.transform.position, enemySpawn.transform.rotation);
+        }
     }
 }

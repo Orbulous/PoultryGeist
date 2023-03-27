@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float lowerLimit;
     public GameManager gm;
+    public Animator animator;
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -30,10 +32,12 @@ public class PlayerController : MonoBehaviour
         if (horizontalInput < 0)
         {
             sr.flipX = true;
+            animator.SetFloat("moveSpeed", moveSpeed);
         }
         else if (horizontalInput > 0)
         {
             sr.flipX = false;
+            animator.SetFloat("moveSpeed", moveSpeed);
         }
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
