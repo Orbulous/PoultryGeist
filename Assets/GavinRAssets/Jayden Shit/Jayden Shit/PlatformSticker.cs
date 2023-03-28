@@ -10,6 +10,10 @@ public class PlatformSticker : MonoBehaviour
         {
             collision.transform.parent = transform;
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.transform.parent = transform;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -18,5 +22,10 @@ public class PlatformSticker : MonoBehaviour
         {
             collision.transform.parent = null;
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.transform.parent = null;
+        }
     }
+
 }
