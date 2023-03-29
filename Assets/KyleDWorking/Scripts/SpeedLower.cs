@@ -22,7 +22,7 @@ public class SpeedLower : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Player.moveSpeed = 5;
+            Player.moveSpeed = 6;
         }
     }
 }
