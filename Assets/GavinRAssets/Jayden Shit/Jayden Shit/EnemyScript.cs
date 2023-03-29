@@ -9,12 +9,10 @@ public class EnemyScript : MonoBehaviour
     public float bounceForce;
     public Transform groundDetector;
     public float moveSpeed;
-    public int maxHealth = 100;
-    int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+
     }
 
     // Update is called once per frame
@@ -47,13 +45,5 @@ public class EnemyScript : MonoBehaviour
     {
         player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
         Destroy(gameObject);
-    }
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
     }
 }
