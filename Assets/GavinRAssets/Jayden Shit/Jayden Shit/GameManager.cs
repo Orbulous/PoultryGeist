@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public PlayerController Pc;
     public GameObject player;
     public GameObject summoning;
     public GameObject spawnPoint;
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Pc = GameObject.Find("Player").GetComponent<PlayerController>();
         player = GameObject.Find("Player");
         summoning = GameObject.Find("Summoning");
     }
@@ -31,5 +33,6 @@ public class GameManager : MonoBehaviour
           //  check = true;
             player.transform.position = spawnPoint.transform.position;
             spawn = true;
+        Pc.GetComponent<PlayerController>().moveSpeed = 5;
     }
 }

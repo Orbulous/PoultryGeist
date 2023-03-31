@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6188946761207191263}
   - component: {fileID: 6188946761207191260}
   - component: {fileID: 6188946761207191261}
+  - component: {fileID: 793362651595648791}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -169,3 +170,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 9.5
   detectionRadius: 15
+--- !u!114 &793362651595648791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6188946761207191250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee9d009de51cd543acb8256e0ff5472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHitOnHead: 0
+  player: {fileID: 3263152689479223611, guid: c17b942e65601574981258c331c17649, type: 3}
+  bounceForce: 0
+  groundDetector: {fileID: 0}
+  moveSpeed: 0
