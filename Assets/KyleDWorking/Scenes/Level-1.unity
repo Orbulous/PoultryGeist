@@ -529,7 +529,10 @@ MonoBehaviour:
   m_RotationMode: 0
   m_UpdateMethod: 2
   m_Targets:
-
+  - target: {fileID: 85919435}
+    weight: 1
+    radius: 0
+  - target: {fileID: 882018133}
     weight: 1
     radius: 0
 --- !u!4 &423988907
@@ -3957,6 +3960,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
+  field of view: 53.919468
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -4681,11 +4685,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 768736eb21cef9045b719131dd1c8adb, type: 3}
---- !u!4 &1412329677 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1473799279939211164, guid: c17b942e65601574981258c331c17649, type: 3}
-  m_PrefabInstance: {fileID: 1890684228}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1437075708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5572,6 +5571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1473799279622114339, guid: c17b942e65601574981258c331c17649, type: 3}
       propertyPath: jumpForce
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473799279622114339, guid: c17b942e65601574981258c331c17649, type: 3}
+      propertyPath: moveSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1473799279622114349, guid: c17b942e65601574981258c331c17649, type: 3}
       propertyPath: m_GravityScale
@@ -5579,11 +5583,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c17b942e65601574981258c331c17649, type: 3}
---- !u!4 &1959384980 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1473799278270090103, guid: c17b942e65601574981258c331c17649, type: 3}
-  m_PrefabInstance: {fileID: 1890684228}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1992551032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2259200776513979869, guid: 8d346d958c148334c8ea4f8d836b824c, type: 3}
