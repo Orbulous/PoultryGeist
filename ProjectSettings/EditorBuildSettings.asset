@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/JJ/senec/title.unity
+    guid: 84f50fb863efb964f9aeb46c2046b18c
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/KyleDWorking/Scenes/Level-1.unity
+    guid: 97d7f07c292faed41983e28a1ed0b8a0
+  - enabled: 1
+    path: Assets/KyleDWorking/Scenes/Level-2.unity
+    guid: 89595467bbddb714f9a25f63b0412d56
+  - enabled: 1
+    path: Assets/JJ/senec/JJLevel3.unity
+    guid: 2e3617934d2f62e4a8e138f6e4311ec5
+  - enabled: 0
+    path: Assets/KyleDWorking/Scenes/Level-3.unity
+    guid: a40a4bb4bc28aaf468fc4a104acfdd77
   m_configObjects: {}
