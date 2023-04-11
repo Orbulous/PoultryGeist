@@ -33,6 +33,6 @@ public class GameManager : MonoBehaviour
           //  check = true;
             player.transform.position = spawnPoint.transform.position;
             spawn = true;
-        Pc.GetComponent<PlayerController>().moveSpeed = 5;
+        Pc.GetComponent<PlayerController>().moveSpeed = 10;
     }
 }
