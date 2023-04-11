@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53399669e18f7749b6652b4d0a96068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pc: {fileID: 3263152689479223614, guid: c17b942e65601574981258c331c17649, type: 3}
-  player: {fileID: 3263152689479223611, guid: c17b942e65601574981258c331c17649, type: 3}
+  Pc: {fileID: 1473799279622114339, guid: c17b942e65601574981258c331c17649, type: 3}
+  player: {fileID: 1473799279622114337, guid: c17b942e65601574981258c331c17649, type: 3}
   summoning: {fileID: 0}
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 5752934051293376835, guid: 848f3a108c4250e48898a5d2741054a1, type: 3}
   checkPoint: {fileID: 0}
   spawn: 0
   check: 0
