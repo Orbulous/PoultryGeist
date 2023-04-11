@@ -22,7 +22,7 @@ public class SpeedController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Player.moveSpeed = 10;
+            Player.moveSpeed = 12;
         }
     }
 }
