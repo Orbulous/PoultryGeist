@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
             animator.SetFloat("moveSpeed", moveSpeed);
         }
+
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
             isOnGround = false;

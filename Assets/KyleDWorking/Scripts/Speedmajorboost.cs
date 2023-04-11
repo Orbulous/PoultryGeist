@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedLower : MonoBehaviour
+public class Speedmajorboost : MonoBehaviour
 {
     public PlayerController Player;
 
@@ -22,7 +22,7 @@ public class SpeedLower : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Player.moveSpeed = 10;
+            Player.moveSpeed = 35;
         }
     }
 }
