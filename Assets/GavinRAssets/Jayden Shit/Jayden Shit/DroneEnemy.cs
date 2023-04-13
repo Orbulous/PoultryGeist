@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class DroneEnemy : MonoBehaviour
 {
     public Vector2 startPos;
     public bool isMovingHorizontally;
@@ -58,7 +58,5 @@ public class MovingPlatform : MonoBehaviour
             yPos = transform.position.y;
         }
         transform.position = new Vector2(xPos, yPos);
-
     }
-
 }
