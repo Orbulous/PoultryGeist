@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -34,5 +35,13 @@ public class GameManager : MonoBehaviour
             player.transform.position = spawnPoint.transform.position;
             spawn = true;
         Pc.GetComponent<PlayerController>().moveSpeed = 10;
+    }
+    public void Play()
+    {
+        SceneManager.LoadScene("Level-1");
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
