@@ -13,12 +13,20 @@ public class PlayerController : MonoBehaviour
     public float lowerLimit;
     public GameManager gm;
     public Animator animator;
+    public GameObject pp;
+    public GameObject cs;
+
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         animator = GetComponent<Animator>();
+        pp = GameObject.Find("Pumpkin Pie");
+        pp.GetComponent<PumpkinPiePickUp>();
+        cs = GameObject.Find("Cranberry Sauce");
+        cs.GetComponent<CranberrySaucePickUp>();
     }
 
     void Update()
@@ -39,7 +47,6 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
             animator.SetFloat("moveSpeed", moveSpeed);
         }
-
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
             isOnGround = false;
@@ -60,6 +67,14 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+        }
+        if (collision.gameObject.CompareTag("PP Pick Up"))
+        {
+            GameObject.Find("Pumpkin Pie").GetComponent<PumpkinPiePickUp>().SpeedBoost();
+        }
+        if (collision.gameObject.CompareTag("CS Pick Up"))
+        {
+            GameObject.Find("Cranberry Sauce").GetComponent<CranberrySaucePickUp>().JumpBoost();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
