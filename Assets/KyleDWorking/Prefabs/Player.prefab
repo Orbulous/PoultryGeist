@@ -162,7 +162,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.7
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -202,10 +202,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1473799279622114351}
   rb: {fileID: 1473799279622114349}
-  moveSpeed: 6
+  moveSpeed: 10
   horizontalInput: 0
   isOnGround: 1
-  jumpForce: 8
+  jumpForce: 15
   lowerLimit: -20
   gm: {fileID: 6653080146007036665, guid: 4049e437779b0f347966657a769da2b1, type: 3}
   animator: {fileID: 1473799279622114348}
