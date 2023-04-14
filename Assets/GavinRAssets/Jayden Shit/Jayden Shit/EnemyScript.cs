@@ -9,6 +9,7 @@ public class EnemyScript : MonoBehaviour
     public float bounceForce;
     public Transform groundDetector;
     public float moveSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +20,14 @@ public class EnemyScript : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.right * Time.deltaTime * moveSpeed);
-        RaycastHit2D ground = Physics2D.Raycast(groundDetector.position, Vector2.down, .5f);
-        if (ground.collider == null)
+
+        if (groundDetector != null)
         {
-            transform.Rotate(0, 180, 0);
+            RaycastHit2D ground = Physics2D.Raycast(groundDetector.position, Vector2.down, .5f);
+            if (ground.collider == null)
+            {
+                transform.Rotate(0, 180, 0);
+            }
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
