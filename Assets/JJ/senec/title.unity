@@ -2158,17 +2158,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53399669e18f7749b6652b4d0a96068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pc: {fileID: 0}
   player: {fileID: 0}
   summoning: {fileID: 0}
   spawnPoint: {fileID: 0}
   checkPoint: {fileID: 0}
   spawn: 0
   check: 0
-  audioSource: {fileID: 0}
-  BigFart: {fileID: 0}
-  lennyFace: {fileID: 0}
-  buttFace: {fileID: 0}
+  audioSource: {fileID: 1997794849}
+  BigFart: {fileID: 8300000, guid: b7ca1efd9850a2444a12a1cbbabe2717, type: 3}
+  lennyFace: {fileID: 1706691030}
+  buttFace: {fileID: 2117585312}
 --- !u!4 &1997794848
 Transform:
   m_ObjectHideFlags: 0
