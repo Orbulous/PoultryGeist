@@ -20,7 +20,14 @@ public class CranberrySaucePickUp : MonoBehaviour
 
     public void JumpBoost()
     {
-        GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 14;
+        GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 20;
         Destroy(gameObject);
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(5);
+        Debug.Log("Thing Work or not idk");
+        GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 14;
+        StartCoroutine(Wait());
     }
 }
