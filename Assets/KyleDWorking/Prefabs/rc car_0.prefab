@@ -104,7 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHitOnHead: 0
   player: {fileID: 1473799279622114337, guid: c17b942e65601574981258c331c17649, type: 3}
-  bounceForce: 1.5
+  bounceForce: 3
   groundDetector: {fileID: 4953380166711538277}
   moveSpeed: 5
 --- !u!61 &4953380164791546728
