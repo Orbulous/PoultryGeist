@@ -264,11 +264,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-<<<<<<< Updated upstream
   m_SortingOrder: -1
-=======
-  m_SortingOrder: 0
->>>>>>> Stashed changes
   m_Sprite: {fileID: 21300000, guid: 83b9697a7401eae4286094480107e3bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2132,7 +2128,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.422}
-<<<<<<< Updated upstream
 --- !u!1 &1997794846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,8 +2280,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
->>>>>>> Stashed changes
 --- !u!1 &2035833033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,7 +2483,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
 --- !u!1 &2117585312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,5 +2567,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> Stashed changes
