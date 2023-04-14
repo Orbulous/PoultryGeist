@@ -20,7 +20,7 @@ public class PumpkinPiePickUp : MonoBehaviour
 
     public void SpeedBoost()
     {
-        GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed = 15;
+        GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed = 20;
         Destroy(gameObject);
         StartCoroutine(Wait());
     }
@@ -28,6 +28,6 @@ public class PumpkinPiePickUp : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         Debug.Log("Thing Work or not idk");
-        GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed = 5;
+        GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed = 10;
     }
 }
