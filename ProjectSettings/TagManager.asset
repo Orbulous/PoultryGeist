@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - PP Pick Up
   - CS Pick Up
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

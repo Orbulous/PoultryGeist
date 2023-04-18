@@ -79,6 +79,9 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        gm.check = true;
+        if (collision.gameObject.CompareTag("CheckPoint"))
+        {
+            gm.currentCheckpoint = collision.transform;
+        }
     }
 }
