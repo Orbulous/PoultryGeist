@@ -9,12 +9,11 @@ public class GameManager : MonoBehaviour
     public GameObject summoning;
     public GameObject spawnPoint;
     public GameObject checkPoint;
-    public bool spawn;
-    public bool check;
     public AudioSource audioSource;
     public AudioClip BigFart;
     public GameObject lennyFace;
     public GameObject buttFace;
+    public Transform currentCheckpoint;
 
     // Start is called before the first frame update
     void Start()
@@ -26,16 +25,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spawn = false;
-        check = false;
+
     }
 
     public void Respawn()
     {
-          //  player.transform.position = checkPoint.transform.position;
-          //  check = true;
-            player.transform.position = spawnPoint.transform.position;
-            spawn = true;
+        player.transform.position = currentCheckpoint.position;
     }
     public void Play()
     {
