@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     public GameObject pp;
     public GameObject cs;
+    public float lives;
 
 
     void Start()
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
         pp.GetComponent<PumpkinPiePickUp>();
         cs = GameObject.Find("Cranberry Sauce");
         cs.GetComponent<CranberrySaucePickUp>();
+        lives = 3;
     }
 
     void Update()
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < lowerLimit)
         {
             GameObject.Find("GameManager").GetComponent<GameManager>().Respawn();
+            lives--;
         }
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * moveSpeed * horizontalInput * Time.deltaTime);
@@ -52,11 +55,15 @@ public class PlayerController : MonoBehaviour
             isOnGround = false;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
-
+        if (lives == 0)
+        {
+            gm.GameOver();
+        }
     }
     public void Hurt()
     {
         gm.Respawn();
+        lives--;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

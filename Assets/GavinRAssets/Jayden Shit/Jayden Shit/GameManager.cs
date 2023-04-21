@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
     public GameObject lennyFace;
     public GameObject buttFace;
     public Transform currentCheckpoint;
+    public TMP_Text livesText;
+    public PlayerController pc;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +28,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        livesText.SetText("Lives: " + pc.lives);
     }
 
     public void Respawn()
@@ -45,5 +48,23 @@ public class GameManager : MonoBehaviour
         audioSource.PlayOneShot(BigFart);
         lennyFace.GetComponent<SpriteRenderer>().enabled = false;
         buttFace.GetComponent<SpriteRenderer>().enabled = true;
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+    public void GameOver()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
+        Storage.currentSceneName = sceneName;
+        SceneManager.LoadScene("gameover");
+    }
+    public void Title()
+    {
+        SceneManager.LoadScene("title");
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(Storage.currentSceneName);
     }
 }
