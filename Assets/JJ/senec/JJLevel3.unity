@@ -982,8 +982,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 55.83921
+  far clip plane: 100
+  field of view: 55.079666
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -3918,6 +3918,10 @@ PrefabInstance:
     - target: {fileID: 1473799279622114338, guid: c17b942e65601574981258c331c17649, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473799279622114339, guid: c17b942e65601574981258c331c17649, type: 3}
+      propertyPath: lives
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1473799279622114339, guid: c17b942e65601574981258c331c17649, type: 3}
       propertyPath: jumpForce
