@@ -37,16 +37,21 @@ public class PlayerController : MonoBehaviour
         }
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * moveSpeed * horizontalInput * Time.deltaTime);
+        
+        
         if (horizontalInput < 0)
         {
             sr.flipX = true;
-            animator.SetFloat("moveSpeed", moveSpeed);
+            animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
         }
         else if (horizontalInput > 0)
         {
             sr.flipX = false;
-            animator.SetFloat("moveSpeed", moveSpeed);
+            animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
         }
+
+
+
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
             isOnGround = false;
