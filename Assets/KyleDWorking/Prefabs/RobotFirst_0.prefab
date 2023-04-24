@@ -157,6 +157,7 @@ MonoBehaviour:
   bounceForce: 4
   groundDetector: {fileID: 6076950192279837920}
   moveSpeed: 5
+  maxHealth: 100
 --- !u!61 &6076950193096908469
 BoxCollider2D:
   m_ObjectHideFlags: 0
