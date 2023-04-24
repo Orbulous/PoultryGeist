@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KyleDWorking/Scenes/Level-2.unity
     guid: 89595467bbddb714f9a25f63b0412d56
-  - enabled: 1
+  - enabled: 0
     path: Assets/JJ/senec/JJLevel3.unity
     guid: 2e3617934d2f62e4a8e138f6e4311ec5
   - enabled: 0
