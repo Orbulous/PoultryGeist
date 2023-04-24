@@ -31,6 +31,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
+        animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
+
         if (transform.position.y < lowerLimit)
         {
             GameObject.Find("GameManager").GetComponent<GameManager>().Respawn();
@@ -42,12 +45,12 @@ public class PlayerController : MonoBehaviour
         if (horizontalInput < 0)
         {
             sr.flipX = true;
-            animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
+            
         }
         else if (horizontalInput > 0)
         {
             sr.flipX = false;
-            animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
+           // animator.SetFloat("moveSpeed", Mathf.Abs(horizontalInput));
         }
 
 

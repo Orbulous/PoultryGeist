@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHitOnHead: 0
-  player: {fileID: 1473799279622114337, guid: c17b942e65601574981258c331c17649, type: 3}
+  player: {fileID: 6543083890747868663, guid: d8f5950d7795b0a43ac91ff966ebab46, type: 3}
   bounceForce: 4
   groundDetector: {fileID: 6076950192279837920}
   moveSpeed: 5
