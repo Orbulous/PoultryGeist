@@ -46,4 +46,22 @@ public class GameManager : MonoBehaviour
         lennyFace.GetComponent<SpriteRenderer>().enabled = false;
         buttFace.GetComponent<SpriteRenderer>().enabled = true;
     }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+    public void GameOver()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
+        Storage.currentSceneName = sceneName;
+        SceneManager.LoadScene("gameover");
+    }
+    public void Title()
+    {
+        SceneManager.LoadScene("title");
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(Storage.currentSceneName);
+    }
 }
