@@ -211,6 +211,7 @@ MonoBehaviour:
   animator: {fileID: 6543083890747868666}
   pp: {fileID: 0}
   cs: {fileID: 0}
+  lives: 3
 --- !u!1 &6543083890855771719
 GameObject:
   m_ObjectHideFlags: 0
