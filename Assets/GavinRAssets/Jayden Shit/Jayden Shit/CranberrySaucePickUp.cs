@@ -16,18 +16,24 @@ public class CranberrySaucePickUp : MonoBehaviour
     void Update()
     {
         transform.Rotate(Vector2.up, 1);
+         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        JumpBoost();
     }
 
     public void JumpBoost()
     {
-        GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 20;
+        GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 65;
         Destroy(gameObject);
+        StartCoroutine(Wait());
     }
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         Debug.Log("Thing Work or not idk");
         GameObject.Find("Player").GetComponent<PlayerController>().jumpForce = 14;
-        StartCoroutine(Wait());
     }
 }
