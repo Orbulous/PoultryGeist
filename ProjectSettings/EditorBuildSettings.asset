@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JJ/senec/JJLevel3.unity
     guid: 2e3617934d2f62e4a8e138f6e4311ec5
-  - enabled: 0
-    path: Assets/KyleDWorking/Scenes/Level-3.unity
-    guid: a40a4bb4bc28aaf468fc4a104acfdd77
+  - enabled: 1
+    path: Assets/JJ/senec/gameover.unity
+    guid: 598b5430354e02e429226193054356eb
   m_configObjects: {}

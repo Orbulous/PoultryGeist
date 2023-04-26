@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2270588421173568314}
   - component: {fileID: 3273462703697300877}
   - component: {fileID: 8378082158888229651}
+  - component: {fileID: -7493401900672513620}
   m_Layer: 0
   m_Name: RobotChase
   m_TagString: Untagged
@@ -188,3 +189,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-7493401900672513620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604103594917204479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0340c401b0cefc43ac2bc4c1e199403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowerLimit: -30
