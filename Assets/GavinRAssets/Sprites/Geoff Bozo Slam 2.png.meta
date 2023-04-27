@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,351 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9920
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790274616ea03244998737feeb792801
+      internalID: 1141553422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_1
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 9920
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5d2b6bd4ce5d64ebd01d9b6d3a5d53
+      internalID: 1173784235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_2
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 9920
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9397c99f4cad744a3215ad51c4d363
+      internalID: -1495721743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7440
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3e700f273165e47a8b152e4ba26863
+      internalID: 286579468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7440
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d46768bf24efd47bd902a003f65fb2
+      internalID: 1400553009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_5
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7440
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0797720d11a9df64690c8e81c23f363a
+      internalID: 1549384531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4960
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149dbb0f39cf3ff418348259755b63d5
+      internalID: 2111925836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_7
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4960
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ccb8543d980e84c90702451787e266
+      internalID: 1907287781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_8
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 4960
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623de6efde1df44d91fdf8998fee7e7
+      internalID: 1536495421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e8a43bb3a5f34da8c0578938f0db9
+      internalID: -1759855864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2480
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a95ab01ca2f6a44db72af13d10c14d6
+      internalID: -1545254020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_11
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 2480
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b1f43782369da46aa45e9e64036bda
+      internalID: -1579245257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca99194e22794a46b2cdab5bc5dd0d1
+      internalID: 1502894292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geoff Bozo Slam 2_13
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 4000
+        height: 2480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7163e54297cb0f04e80e4b8dbdec4637
+      internalID: 813429519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +431,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Geoff Bozo Slam 2_3: 286579468
+      Geoff Bozo Slam 2_12: 1502894292
+      Geoff Bozo Slam 2_6: 2111925836
+      Geoff Bozo Slam 2_13: 813429519
+      Geoff Bozo Slam 2_11: -1579245257
+      Geoff Bozo Slam 2_10: -1545254020
+      Geoff Bozo Slam 2_0: 1141553422
+      Geoff Bozo Slam 2_7: 1907287781
+      Geoff Bozo Slam 2_1: 1173784235
+      Geoff Bozo Slam 2_8: 1536495421
+      Geoff Bozo Slam 2_4: 1400553009
+      Geoff Bozo Slam 2_2: -1495721743
+      Geoff Bozo Slam 2_9: -1759855864
+      Geoff Bozo Slam 2_5: 1549384531
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 749867625}
   - component: {fileID: 749867624}
   - component: {fileID: 749867626}
+  - component: {fileID: 749867627}
   m_Layer: 0
   m_Name: Geoff Bozo walkL_0
   m_TagString: Untagged
@@ -327,6 +328,27 @@ MonoBehaviour:
   - {fileID: 955928597}
   - {fileID: 1256412246}
   speed: 5
+  size: 0
+--- !u!95 &749867627
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749867623}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 262585edb64329c47b54558d3167ec99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &955928596
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,7 +603,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.909054
+  orthographic size: 8.917146
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
