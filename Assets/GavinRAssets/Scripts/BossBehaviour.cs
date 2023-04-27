@@ -7,11 +7,14 @@ public class BossBehaviour : MonoBehaviour
     public Transform[] spots;
     public float speed;
     public float size;
+    public Animator anim;
     
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("Boss");
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,20 +28,27 @@ public class BossBehaviour : MonoBehaviour
         //First Attack
 
 
-
+        Debug.Log("Boss Started");
         while (transform.position.x != spots[0].position.x)
         {
-          
-           transform.position = Vector2.MoveTowards(transform.position, new Vector2(spots[0].position.x, transform.position.y), speed* Time.deltaTime);
+            Debug.Log("While active. Position: " + transform.position.x + " Spot Position: " + spots[0].position.x);
 
-            
-
-            yield return new WaitForSeconds(1f);
-            
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(spots[0].position.x, transform.position.y), speed * Time.deltaTime);
             yield return null;
 
-
         }
+        
+        if(transform.position.x == spots[0].position.x)
+        {
+            Slam();
+        }
+     
+
+    }
+
+    public void Slam()
+    {
+        anim.SetTrigger("SlamR");
     }
 
 }
