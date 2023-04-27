@@ -6,7 +6,8 @@ public class BossBehaviour : MonoBehaviour
 {
     public Transform[] spots;
     public float speed;
-
+    public float size;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,13 @@ public class BossBehaviour : MonoBehaviour
           
            transform.position = Vector2.MoveTowards(transform.position, new Vector2(spots[0].position.x, transform.position.y), speed* Time.deltaTime);
 
+            
+
+            yield return new WaitForSeconds(1f);
+            
             yield return null;
+
+
         }
     }
 
