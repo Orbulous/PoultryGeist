@@ -8,6 +8,8 @@ public class BossBehaviour : MonoBehaviour
     public float speed;
     public float size;
     public Animator anim;
+    public GameObject hitRCollider;
+    public float attackDelayTime;
     
     // Start is called before the first frame update
     void Start()
@@ -40,15 +42,17 @@ public class BossBehaviour : MonoBehaviour
         
         if(transform.position.x == spots[0].position.x)
         {
-            Slam();
+            StartCoroutine(Slam());
         }
      
 
     }
 
-    public void Slam()
+    IEnumerator Slam()
     {
         anim.SetTrigger("SlamR");
+        yield return new WaitForSeconds(attackDelayTime);
+        hitRCollider.SetActive(true);
     }
 
 }
