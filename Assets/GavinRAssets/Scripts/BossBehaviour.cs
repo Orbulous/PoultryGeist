@@ -10,11 +10,15 @@ public class BossBehaviour : MonoBehaviour
     public Animator anim;
     public GameObject hitRCollider;
     public float attackDelayTime;
+
+    public Transform currentSpot;
     
     // Start is called before the first frame update
     void Start()
     {
+        currentSpot = spots[0];
         StartCoroutine("Boss");
+        StartCoroutine(AttackPoint());
 
         anim = GetComponent<Animator>();
     }
@@ -31,16 +35,16 @@ public class BossBehaviour : MonoBehaviour
 
 
         Debug.Log("Boss Started");
-        while (transform.position.x != spots[0].position.x)
+        while (transform.position.x != currentSpot.position.x)
         {
-            Debug.Log("While active. Position: " + transform.position.x + " Spot Position: " + spots[0].position.x);
+            
 
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(spots[0].position.x, transform.position.y), speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(currentSpot.position.x, transform.position.y), speed * Time.deltaTime);
             yield return null;
 
         }
         
-        if(transform.position.x == spots[0].position.x)
+        if(transform.position.x == currentSpot.position.x)
         {
             StartCoroutine(Slam());
         }
@@ -54,5 +58,19 @@ public class BossBehaviour : MonoBehaviour
         yield return new WaitForSeconds(attackDelayTime);
         hitRCollider.SetActive(true);
     }
+
+    IEnumerator AttackPoint()
+    {
+        //pick a random number
+        int rando = Random.Range(0, spots.Length);
+        currentSpot = spots[rando];
+        yield return new WaitForSeconds(5);
+        StartCoroutine(Boss());
+        StartCoroutine(AttackPoint());
+
+
+    }
+
+
 
 }
