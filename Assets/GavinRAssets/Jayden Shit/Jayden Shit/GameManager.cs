@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     }
     public void Play()
     {
-        SceneManager.LoadScene("Level-1");
+        SceneManager.LoadScene("Cutscene");
     }
     public void Quit()
     {
