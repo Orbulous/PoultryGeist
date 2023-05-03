@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 260760881376930969}
   - component: {fileID: 260760881376930968}
   - component: {fileID: 260760881376930975}
-  - component: {fileID: 260760881376930974}
   - component: {fileID: 2520510716333437523}
   - component: {fileID: 2427092113100865381}
   - component: {fileID: 6609022491019856695}
+  - component: {fileID: 4634422481744153765}
   m_Layer: 0
   m_Name: New Piskel (2)_0
   m_TagString: Untagged
@@ -109,19 +109,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &260760881376930974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260760881376930973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f570d01d51e5bfd4f864e2b15712aa05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 17
 --- !u!61 &2520510716333437523
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -187,3 +174,16 @@ MonoBehaviour:
   groundDetector: {fileID: 0}
   moveSpeed: 0
   maxHealth: 100
+--- !u!114 &4634422481744153765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260760881376930973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f570d01d51e5bfd4f864e2b15712aa05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 17

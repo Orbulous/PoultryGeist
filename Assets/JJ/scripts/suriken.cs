@@ -32,5 +32,8 @@ public class suriken : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+        
+            Destroy(gameObject);
+        
     }
 }
