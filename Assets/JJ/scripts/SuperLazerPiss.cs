@@ -18,4 +18,10 @@ public class SuperLazerPiss : MonoBehaviour
     {
         transform.Translate(Vector2.left * Time.deltaTime * moveSpeed);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        Destroy(gameObject);
+
+    }
 }
