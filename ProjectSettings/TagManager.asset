@@ -10,6 +10,7 @@ TagManager:
   - PP Pick Up
   - CS Pick Up
   - CheckPoint
+  - drone
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - 
+  - drone
   - 
   - 
   - 
